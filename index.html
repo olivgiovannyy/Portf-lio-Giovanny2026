@@ -1,52 +1,549 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Portfólio de Giovanny de Oliveira Bezerra. Estudante de ADS, desenvolvimento, dados e automação em São Paulo.">
-<meta name="theme-color" content="#101e3b"><title>Giovanny Oliveira — Desenvolvimento, Dados & Automação</title>
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script defer src="script.js"></script>
-</head>
-<body>
-<canvas id="web-background" aria-hidden="true"></canvas>
-<button id="motion-toggle" class="motion-toggle" aria-pressed="false" aria-label="Pausar animação do fundo">Ⅱ <span>Pausar fundo</span></button>
-<a class="skip" href="#sobre">Pular para o conteúdo</a><div class="progress" aria-hidden="true"></div>
-<header class="header">
-    <a class="brand" href="#inicio" aria-label="Giovanny, início">g<span>.</span></a>
-    <nav aria-label="Navegação principal" id="menu">
-    <a href="#sobre">Sobre</a><a href="#trajetoria">Trajetória</a><a href="#projetos">Projetos</a><a href="#conhecimentos">Conhecimentos</a><a class="nav-contact" href="#contato">Vamos conversar <span>↗</span></a>
-    </nav><button class="menu-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">Menu <span>☰</span></button></header>
-<main>
-<section class="hero" id="inicio">
-<div class="hero-grid" aria-hidden="true"></div>
-<div class="hero-content"><p class="eyebrow"><span class="status-dot"></span> EM BUSCA DE ESTÁGIO EM TI</p><p class="hello">Olá, eu sou o Giovanny.</p><h1>Ideias em código.<br>Dados em <em>ação.</em>
-</h1><p class="hero-description">Desenvolvimento, dados & automação.<br>Conectando tecnologia, criatividade e a vontade de construir algo que faça diferença.</p>
-<div class="actions">
-    <a class="button primary" href="#projetos">Explore meus projetos <span>↗</span>
-    </a><a class="text-link" href="#sobre">Conheça minha história <span>↓</span></a></div></div>
-<div class="hero-bottom"><a href="#sobre"><span class="scroll-icon">↓</span> ROLE PARA EXPLORAR</a><span>SÃO PAULO, BRASIL <span class="red">/</span> 23° S, 46° O</span><span>PORTFÓLIO / 2026</span></div>
-</section>
-<div class="ticker" aria-hidden="true"><span>DESENVOLVIMENTO</span><i>✳</i><span>DADOS</span><i>✳</i>
-    <span>AUTOMAÇÃO</span><i>✳</i><span>CRIATIVIDADE</span><i>✳</i><span>DESENVOLVIMENTO</span>
-</div>
-<section class="section about" id="sobre"><div class="section-label"><span>01 — SOBRE MIM</span>
-</div><div class="about-grid"><div class="portrait tilt has-photo"><img id="portrait-image" src="assets/foto-giovanny.png" alt="Retrato profissional de Giovanny de Oliveira Bezerra" width="1024" height="1536"><div id="portrait-fallback" hidden>
-    <span class="portrait-kicker">CRIATIVIDADE EM CONSTRUÇÃO</span><strong>G<span>O</span>
-    </strong><p>Giovanny de Oliveira Bezerra</p><span class="portrait-line">DESENVOLVIMENTO + DADOS + MARKETING</span>
-</div>
-<span class="portrait-tag">SÃO PAULO, SP ↗</span>
-</div>
-<div class="about-copy"><h2>Curioso por natureza.<br><span>Movido por possibilidades.</span>
-</h2><p>Sou <strong>Giovanny de Oliveira Bezerra</strong>, estudante de Análise e Desenvolvimento de Sistemas na UNINOVE e Auxiliar de Marketing na Sun Special. Comecei como Jovem Aprendiz e fui efetivado em agosto de 2026.</p><p>Estou construindo meu caminho na tecnologia, conectando lógica de programação, front-end, dados, Power BI e Salesforce à experiência criativa do marketing.</p><p>Fora das telas, sou fã de Homem-Aranha e cultura pop. Desde 2022, participo do Movimento de Schoenstatt, organizando eventos e desenvolvendo liderança, comunicação e trabalho em equipe.</p><div class="about-notes"><div><span>NO MOMENTO</span><p>ADS na UNINOVE<br>2026 — presente</p></div><div><span>PRÓXIMO PASSO</span><p>Estágio em tecnologia<br>Aprender. Construir. Evoluir.</p></div></div></div></div></section>
-<section class="section" id="trajetoria"><div class="section-label"><span>02 — MINHA TRAJETÓRIA</span></div><div class="section-heading"><h2>O caminho até <em>aqui.</em></h2></div><div class="timeline"><div class="timeline-track" aria-hidden="true"><i></i></div>
-<article class="timeline-item"><span class="year">2022</span><div><span class="tag">VOLUNTARIADO</span><h3>Aprender com pessoas</h3><p>Início no Movimento de Schoenstatt. Organização de eventos, liderança, comunicação e trabalho em equipe.</p></div></article>
-<article class="timeline-item"><span class="year">2024</span><div><span class="tag">FORMAÇÃO</span><h3>Base acadêmica e visão de negócios</h3><p>Formação Técnica em Administração pela ETEC Jaraguá e conclusão do Ensino Médio, desenvolvendo conhecimentos em gestão, organização e resolução de problemas.</p></div></article>
-<article class="timeline-item"><span class="year">2025</span><div><span class="tag">PRIMEIROS PASSOS</span><h3>Do marketing para o código</h3><p>Entrada na Sun Special como Jovem Aprendiz de Marketing. Primeiros passos em Python e lógica de programação.</p></div></article>
-<article class="timeline-item"><span class="year">2026</span><div><span class="tag">EVOLUÇÃO</span><h3>Novos desafios, novas conexões</h3><p>Início de ADS na UNINOVE e efetivação como Auxiliar de Marketing. Cursos em Python, IoT e administração de banco de dados.</p></div></article>
-<article class="timeline-item current"><span class="year">Hoje</span><div><span class="tag">EM MOVIMENTO</span><h3>Preparado para o próximo capítulo</h3><p>Construindo projetos em Python, front-end e dados. Em busca de uma oportunidade de estágio em TI.</p></div></article></div></section>
-<section class="section projects-section" id="projetos"><div class="section-label"><span>03 — PROJETOS</span><span>DA IDEIA À PRÁTICA</span></div><div class="section-heading"><h2>Ideias que<br><em>saíram do papel.</em></h2><p>Projetos que construí.<br>Explore cada experiência online.</p></div><div class="filters" role="group" aria-label="Filtrar projetos"><button class="active" aria-pressed="true" data-filter="Todos">Todos</button><button aria-pressed="false" data-filter="Front-end">Front-end</button><button aria-pressed="false" data-filter="Python">Python</button><button aria-pressed="false" data-filter="Dados">Dados</button></div><div id="project-grid" class="project-grid" aria-live="polite"></div><noscript><p>Ative o JavaScript para explorar os projetos e seus links.</p></noscript></section>
-<section class="section" id="conhecimentos"><div class="section-label"><span>04 — CONHECIMENTOS</span><span>SEMPRE APRENDENDO</span></div><div class="section-heading"><h2>Minha caixa de <em>ferramentas.</em></h2><p>Tecnologia e criatividade,<br>trabalhando juntas.</p></div><div id="tech-grid" class="tech-grid"></div><div class="learning-grid"><div><h3 class="subheading">Cursos & certificações <span>05</span></h3><div class="course"><span>01</span><div><h4>Lógica de Programação</h4><p>Udemy / My Learning</p></div></div><div class="course"><span>02</span><div><h4>Linguagem de Programação Python</h4><p>Fundação Bradesco</p></div></div><div class="course"><span>03</span><div><h4>Internet das Coisas Aplicada para Resolução de Desafios</h4><p>ENAP <b>NOTA 100/100</b></p></div></div><div class="course"><span>04</span><div><h4>Administrando Banco de Dados</h4><p>Fundação Bradesco</p></div></div><div class="course"><span>05</span><div><h4>Análise de Dados em Power BI</h4></div></div></div><div><h3 class="subheading">Habilidades que se conectam</h3><div class="skills"><span>Python</span><span>Lógica de Programação</span><span>Front-end</span><span>Web Design</span><span>Power BI</span><span>Salesforce</span><span>Dados</span><span>Inteligência Artificial</span><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Marketing e Comunicação Visual</span><span>Liderança</span><span>Comunicação</span><span>Trabalho em equipe</span></div><h3 class="subheading languages-heading">Idiomas</h3><div class="language"><span>Português</span><span>Nativo</span></div><div class="language"><span>Inglês</span><span aria-label="3 de 5"><i>●●●</i>○○ <small>3/5</small></span></div><div class="language"><span>Espanhol</span><span aria-label="3 de 5"><i>●●●</i>○○ <small>3/5</small></span></div><div class="language"><span>Italiano</span><span aria-label="3 de 5"><i>●●●</i>○○ <small>3/5</small></span></div></div></div></section>
-<section class="section github-section"><div class="github-top"><div><p class="eyebrow">05 — CÓDIGO ABERTO</p><h2>O aprendizado<br>continua no <em>GitHub.</em></h2></div><a class="button" href="https://github.com/2007oliveiragiovanny-dot" target="_blank" rel="noopener noreferrer">Explore meu GitHub ↗</a></div><div class="github-stats"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=2007oliveiragiovanny-dot&show_icons=true&hide_border=true&bg_color=101e3b&title_color=ff5360&text_color=b5c4de&icon_color=ff5360" alt="Estatísticas públicas do GitHub de Giovanny"><img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=2007oliveiragiovanny-dot&layout=compact&hide_border=true&bg_color=101e3b&title_color=ff5360&text_color=b5c4de" alt="Linguagens dos repositórios públicos de Giovanny"><p class="stats-fallback" hidden>As estatísticas estão indisponíveis no momento. Você pode acompanhar os repositórios diretamente no meu perfil.</p></div></section>
-<section class="section contact" id="contato"><div class="section-label"><span>06 — VAMOS CONVERSAR</span><span>ABERTO A NOVAS CONEXÕES</span></div><p class="eyebrow">TEM UMA OPORTUNIDADE OU UMA IDEIA?</p><h2>Vamos construir<br><em>o próximo passo.</em><span class="contact-arrow">↗</span></h2><p>Busco um estágio em tecnologia para aprender com pessoas,<br>contribuir com ideias e transformar conhecimento em prática.</p><div class="contact-actions"><a class="button primary" href="mailto:2007oliveira.giovanny@gmail.com">Envie um e-mail ↗</a><button class="copy-email" id="copy-email">Copiar e-mail <span>⧉</span></button></div><p class="email-label">2007oliveira.giovanny@gmail.com</p><p id="copy-status" role="status"></p><div class="socials"><a href="https://linkedin.com/in/giovanny-de-oliveira-bezerra" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/2007oliveiragiovanny-dot" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>São Paulo, Brasil</span></div></section>
-</main>
-<footer><a class="brand" href="#inicio">g<span>.</span></a><p>“Com grandes poderes, vêm grandes responsabilidades — e grandes commits.”</p><a href="#inicio">Voltar ao topo ↑</a></footer>
-</body></html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfólio de Giovanny de Oliveira Bezerra. Estudante de ADS, desenvolvimento, dados e automação em São Paulo."
+    >
+    <meta name="theme-color" content="#101e3b">
+
+    <title>Giovanny Oliveira — Desenvolvimento, Dados &amp; Automação</title>
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <canvas id="web-background" aria-hidden="true"></canvas>
+
+    <button
+      id="motion-toggle"
+      class="motion-toggle"
+      aria-pressed="false"
+      aria-label="Pausar animação do fundo"
+    >
+      Ⅱ <span>Pausar fundo</span>
+    </button>
+
+    <a class="skip" href="#sobre">Pular para o conteúdo</a>
+    <div class="progress" aria-hidden="true"></div>
+
+    <header class="header">
+      <a class="brand" href="#inicio" aria-label="Giovanny, início">
+        g<span>.</span>
+      </a>
+
+      <nav id="menu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#trajetoria">Trajetória</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#conhecimentos">Conhecimentos</a>
+        <a class="nav-contact" href="#contato">
+          Vamos conversar <span>↗</span>
+        </a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        aria-controls="menu"
+        aria-expanded="false"
+        aria-label="Abrir menu"
+      >
+        Menu <span>☰</span>
+      </button>
+    </header>
+
+    <main>
+      <!-- INÍCIO -->
+      <section class="hero" id="inicio">
+        <div class="hero-grid" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            EM BUSCA DE ESTÁGIO EM TI
+          </p>
+
+          <p class="hello">Olá, eu sou o Giovanny.</p>
+
+          <h1>
+            Ideias em código.<br>
+            Dados em <em>ação.</em>
+          </h1>
+
+          <p class="hero-description">
+            Desenvolvimento, dados &amp; automação.<br>
+            Conectando tecnologia, criatividade e a vontade de construir algo
+            que faça diferença.
+          </p>
+
+          <div class="actions">
+            <a class="button primary" href="#projetos">
+              Explore meus projetos <span>↗</span>
+            </a>
+
+            <a class="text-link" href="#sobre">
+              Conheça minha história <span>↓</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <a href="#sobre">
+            <span class="scroll-icon">↓</span>
+            ROLE PARA EXPLORAR
+          </a>
+
+          <span>
+            SÃO PAULO, BRASIL <span class="red">/</span> 23° S, 46° O
+          </span>
+
+          <span>PORTFÓLIO / 2026</span>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <span>DESENVOLVIMENTO</span>
+        <i>✳</i>
+        <span>DADOS</span>
+        <i>✳</i>
+        <span>AUTOMAÇÃO</span>
+        <i>✳</i>
+        <span>CRIATIVIDADE</span>
+        <i>✳</i>
+        <span>DESENVOLVIMENTO</span>
+      </div>
+
+      <!-- SOBRE MIM -->
+      <section class="section about" id="sobre">
+        <div class="section-label">
+          <span>01 — SOBRE MIM</span>
+        </div>
+
+        <div class="about-grid">
+          <div class="portrait tilt has-photo">
+            <img
+              id="portrait-image"
+              src="assets/foto-giovanny.png"
+              alt="Retrato profissional de Giovanny de Oliveira Bezerra"
+              width="1024"
+              height="1536"
+            >
+
+            <div id="portrait-fallback" hidden>
+              <span class="portrait-kicker">
+                CRIATIVIDADE EM CONSTRUÇÃO
+              </span>
+
+              <strong>G<span>O</span></strong>
+              <p>Giovanny de Oliveira Bezerra</p>
+
+              <span class="portrait-line">
+                DESENVOLVIMENTO + DADOS + MARKETING
+              </span>
+            </div>
+
+            <span class="portrait-tag">SÃO PAULO, SP ↗</span>
+          </div>
+
+          <div class="about-copy">
+            <h2>
+              Curioso por natureza.<br>
+              <span>Movido por possibilidades.</span>
+            </h2>
+
+            <p>
+              Sou <strong>Giovanny de Oliveira Bezerra</strong>, estudante de Análise e
+              Desenvolvimento de Sistemas na UNINOVE, com foco em desenvolvimento, dados e automação.
+            </p>
+
+            <p>
+              Atualmente, venho desenvolvendo projetos próprios para ampliar meus conhecimentos na prática,
+              como dashboards interativos, sistemas web, automações e soluções com Inteligência Artificial 
+              integrada em Python, além de trabalhar com tecnologias como SQL, Power BI, JavaScript, HTML, CSS e Git/GitHub.
+            </p>
+
+            <p>
+              Gosto de transformar ideias em projetos funcionais, unindo programação, análise
+              de dados e interfaces intuitivas para criar soluções cada vez mais completas.
+            </p>
+
+            <p>
+              Fora das telas, sou fã de Homem-Aranha e cultura pop. Desde 2022,
+              participo do Movimento de Schoenstatt, organizando eventos e
+              desenvolvendo liderança, comunicação e trabalho em equipe.
+            </p>
+
+            <div class="about-notes">
+              <div>
+                <span>NO MOMENTO</span>
+                <p>ADS na UNINOVE<br>2026 — presente</p>
+              </div>
+
+              <div>
+                <span>PRÓXIMO PASSO</span>
+                <p>
+                  Estágio em tecnologia<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRAJETÓRIA -->
+      <section class="section" id="trajetoria">
+        <div class="section-label">
+          <span>02 — MINHA TRAJETÓRIA</span>
+        </div>
+
+        <div class="section-heading">
+          <h2>O caminho até <em>aqui.</em></h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-track" aria-hidden="true">
+            <i></i>
+          </div>
+
+          <article class="timeline-item">
+            <span class="year">2022</span>
+            <div>
+              <span class="tag">VOLUNTARIADO</span>
+              <h3>Liderança que começou na prática</h3>
+              <p>
+                Desde 2022, participo de projetos voluntários com foco em organização de eventos, 
+                comunicação, trabalho em equipe e liderança. Experiências que fortaleceram
+                minha capacidade de colaborar, assumir responsabilidades e lidar com pessoas.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="year">2024</span>
+            <div>
+              <span class="tag">FORMAÇÃO</span>
+              <h3>Construindo uma base sólida</h3>
+              <p>
+                Minha trajetória começou com formação técnica em Administração, 
+                desenvolvendo visão de negócios, organização, processos e resolução de 
+                problemas. Hoje, amplio essa base cursando Análise e Desenvolvimento de Sistemas.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="year">2025</span>
+            <div>
+              <span class="tag">PRIMEIROS PASSOS</span>
+              <h3>Do marketing para o código</h3>
+              <p>
+                Meu contato com marketing digital e projetos práticos despertou ainda 
+                mais meu interesse por tecnologia. Foi nesse período que comecei a 
+                estudar lógica de programação, Python, desenvolvimento web e análise de dados.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="year">2026</span>
+            <div>
+              <span class="tag">EVOLUÇÃO</span>
+              <h3>Novos desafios, novas conexões</h3>
+              <p>
+                Início de ADS na UNINOVE. Passei a transformar o aprendizado em projetos próprios, 
+                desenvolvendo sistemas web, dashboards interativos, automações e soluções em Python,
+                além de aprofundar conhecimentos em SQL, Power BI, Git/GitHub, Salesforce e bancos de dados.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item current">
+            <span class="year">Hoje</span>
+            <div>
+              <span class="tag">EM MOVIMENTO</span>
+              <h3>Preparado para o próximo capítulo</h3>
+              <p>
+                Sigo evoluindo por meio de projetos, estudos e novos desafios, buscando 
+                aprofundar meus conhecimentos em desenvolvimento, dados, automação e IA e 
+                transformar ideias em soluções funcionais. <br> Em busca de uma oportunidade de estágio em TI.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section class="section projects-section" id="projetos">
+        <div class="section-label">
+          <span>03 — PROJETOS</span>
+        </div>
+
+        <div class="section-heading">
+          <h2>
+            Ideias que<br>
+            <em>saíram do papel.</em>
+          </h2>
+
+          <p>
+            Projetos que construí.<br>
+            Explore cada experiência online.
+          </p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrar projetos">
+          <button class="active" aria-pressed="true" data-filter="Todos">
+            Todos
+          </button>
+          <button aria-pressed="false" data-filter="Front-end">
+            Front-end
+          </button>
+          <button aria-pressed="false" data-filter="Python">
+            Python
+          </button>
+          <button aria-pressed="false" data-filter="Dados">
+            Dados
+          </button>
+        </div>
+
+        <div
+          id="project-grid"
+          class="project-grid"
+          aria-live="polite"
+        ></div>
+
+        <noscript>
+          <p>Ative o JavaScript para explorar os projetos e seus links.</p>
+        </noscript>
+      </section>
+
+      <!-- CONHECIMENTOS -->
+      <section class="section" id="conhecimentos">
+        <div class="section-label">
+          <span>04 — CONHECIMENTOS</span>
+          <span>SEMPRE APRENDENDO</span>
+        </div>
+
+        <div class="section-heading">
+          <h2>Minha caixa de <em>ferramentas.</em></h2>
+          <p>
+            Tecnologia e criatividade,<br>
+            trabalhando juntas.
+          </p>
+        </div>
+
+        <div id="tech-grid" class="tech-grid"></div>
+
+        <div class="learning-grid">
+          <div>
+            <h3 class="subheading">
+              Cursos &amp; certificações <span>05</span>
+            </h3>
+
+            <div class="course">
+              <span>01</span>
+              <div>
+                <h4>Lógica de Programação</h4>
+                <p>Udemy / My Learning</p>
+              </div>
+            </div>
+
+            <div class="course">
+              <span>02</span>
+              <div>
+                <h4>Linguagem de Programação Python</h4>
+                <p>Fundação Bradesco</p>
+              </div>
+            </div>
+
+            <div class="course">
+              <span>03</span>
+              <div>
+                <h4>
+                  Internet das Coisas Aplicada para Resolução de Desafios
+                </h4>
+                <p>ENAP <b>NOTA 100/100</b></p>
+              </div>
+            </div>
+
+            <div class="course">
+              <span>04</span>
+              <div>
+                <h4>Administrando Banco de Dados</h4>
+                <p>Fundação Bradesco</p>
+              </div>
+            </div>
+
+            <div class="course">
+              <span>05</span>
+              <div>
+                <h4>Análise de Dados em Power BI</h4>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="subheading">Habilidades que se conectam</h3>
+
+            <div class="skills">
+              <span>Python</span>
+              <span>Lógica de Programação</span>
+              <span>Front-end</span>
+              <span>Web Design</span>
+              <span>Power BI</span>
+              <span>Salesforce</span>
+              <span>Dados</span>
+              <span>Inteligência Artificial</span>
+              <span>Adobe Photoshop</span>
+              <span>Adobe Illustrator</span>
+              <span>Marketing e Comunicação Visual</span>
+              <span>Liderança</span>
+              <span>Comunicação</span>
+              <span>Trabalho em equipe</span>
+            </div>
+
+            <h3 class="subheading languages-heading">Idiomas</h3>
+
+            <div class="language">
+              <span>Português</span>
+              <span>Nativo</span>
+            </div>
+
+            <div class="language">
+              <span>Inglês</span>
+              <span aria-label="3 de 5">
+                <i>●●●</i>○○ <small>3/5</small>
+              </span>
+            </div>
+
+            <div class="language">
+              <span>Espanhol</span>
+              <span aria-label="3 de 5">
+                <i>●●●</i>○○ <small>3/5</small>
+              </span>
+            </div>
+
+            <div class="language">
+              <span>Italiano</span>
+              <span aria-label="3 de 5">
+                <i>●●●</i>○○ <small>3/5</small>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GITHUB -->
+      <section class="section github-section">
+        <div class="github-top">
+          <div>
+            <p class="eyebrow">05 — CÓDIGO ABERTO</p>
+            <h2>
+              O aprendizado<br>
+              continua no <em>GitHub.</em>
+            </h2>
+          </div>
+
+          <a
+            class="button"
+            href="https://github.com/olivgiovannyy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore meu GitHub ↗
+          </a>
+        </div>
+
+        <div class="github-stats">
+          <img
+            loading="lazy"
+            src="https://github-readme-stats.vercel.app/api?username=2007oliveiragiovanny-dot&amp;show_icons=true&amp;hide_border=true&amp;bg_color=101e3b&amp;title_color=ff5360&amp;text_color=b5c4de&amp;icon_color=ff5360"
+            alt="Estatísticas públicas do GitHub de Giovanny"
+          >
+
+          <img
+            loading="lazy"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=2007oliveiragiovanny-dot&amp;layout=compact&amp;hide_border=true&amp;bg_color=101e3b&amp;title_color=ff5360&amp;text_color=b5c4de"
+            alt="Linguagens dos repositórios públicos de Giovanny"
+          >
+
+          <p class="stats-fallback" hidden>
+            As estatísticas estão indisponíveis no momento. Você pode
+            acompanhar os repositórios diretamente no meu perfil.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="section contact" id="contato">
+        <div class="section-label">
+          <span>06 — VAMOS CONVERSAR</span>
+          <span>ABERTO A NOVAS CONEXÕES</span>
+        </div>
+
+        <p class="eyebrow">TEM UMA OPORTUNIDADE OU UMA IDEIA?</p>
+
+        <h2>
+          Vamos construir<br>
+          <em>o próximo passo.</em>
+          <span class="contact-arrow">↗</span>
+        </h2>
+
+        <p>
+          Busco um estágio em tecnologia para aprender com pessoas,<br>
+          contribuir com ideias e transformar conhecimento em prática.
+        </p>
+
+        <div class="contact-actions">
+          <a
+            class="button primary"
+            href="mailto:2007oliveira.giovanny@gmail.com"
+          >
+            Envie um e-mail ↗
+          </a>
+
+          <button class="copy-email" id="copy-email">
+            Copiar e-mail <span>⧉</span>
+          </button>
+        </div>
+
+        <p class="email-label">2007oliveira.giovanny@gmail.com</p>
+        <p id="copy-status" role="status"></p>
+
+        <div class="socials">
+          <a
+            href="https://www.linkedin.com/in/giovanny-de-oliveira-bezerra-26a8a0340/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+          <a
+            href="https://github.com/olivgiovannyy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <span>São Paulo, Brasil</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#inicio">g<span>.</span></a>
+
+      <p>
+        “Com grandes poderes, vêm grandes responsabilidades — e grandes
+        commits.”
+      </p>
+
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>
